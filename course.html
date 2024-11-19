@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Iftiinshe | Become a Full Stack Developer</title>
+  </head>
+  <body>
+    <nav class="bg-indigo-700 border-b border-indigo-500">
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="h-20 flex items-center justify-center">
+          <div
+            class="flex items-center flex-1 justify-center md:items-stretch md:justify-start"
+          >
+            <!-- logo -->
+            <a class="flex items-center" href="index.html">
+              <img class="h-10 w-auto" src="images/logo.png" alt="" />
+              <span class="hidden md:block ml-2 font-bold text-2xl text-white"
+                >Iftiinshe</span
+              >
+            </a>
+
+            <!-- Menu -->
+            <div class="ml-2 md:ml-auto">
+              <div class="flex space-x-2 items-center">
+                <a
+                  class="text-white hover:bg-gray-900 hover:text-white rounded py-2 px-3"
+                  href="/index.html"
+                  >Home</a
+                >
+                <a
+                  class="text-white hover:bg-gray-900 hover:text-white rounded py-2 px-3"
+                  href="/courses.html"
+                  >Courses</a
+                >
+                <a
+                  class="text-white hover:bg-gray-900 hover:text-white rounded py-2 px-3"
+                  href="/add-course.html"
+                  >Add Course</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Back Button -->
+    <section>
+      <div class="container m-auto p-6">
+        <a class="text-indigo-500 hover:text-indigo-600" href="/courses.html"
+          ><i class="fas fa-arrow-left mr-2"></i> Back to Courses</a
+        >
+      </div>
+    </section>
+
+    <!-- Course Info -->
+    <section class="bg-indigo-50">
+      <div
+        class="container m-auto py-10 px-6 grid grid-cols-1 md:grid-cols-[7fr_3fr] gap-6"
+      >
+        <!-- course info section -->
+        <main>
+          <div
+            class="bg-white p-6 rounded-lg shadow-md text-center md:text-left"
+          >
+            <div class="text-gray-500 mb-4">Font-End</div>
+            <h1 class="text-3xl font-bold mb-4">HTML and CSS</h1>
+            <div
+              class="text-orange-700 flex items-center justify-center md:justify-start gap-2"
+            >
+              <i class="fa-solid fa-code text-lg"></i>
+              <span class="font-semibold">HTML, CSS</span>
+            </div>
+          </div>
+          <!-- description< -->
+          <div class="mt-6 bg-white rounded-lg p-6 shadow-md mt-6">
+            <h3 class="text-lg font-bold mb-6">Course Description</h3>
+            <p class="mb-4">
+              Want to master HTML and CSS? Our hands-on course will guide you
+              through the process of creating stunning, responsive websites.
+              Learn the fundamentals of web design and development, from
+              structuring content with HTML to styling it beautifully with CSS.
+              With real-world projects, you'll gain the skills needed to build
+              professional-grade websites that adapt to any screen size. Start
+              your journey today and unlock the potential of web development!
+            </p>
+            <hr />
+            <div class="flex justify-between">
+              <h3 class="text-indigo-500 mb-2 font-semibold">
+                Duration : 2 Months
+              </h3>
+              <h3 class="text-indigo-500 mb-2 font-semibold">Price : $ 10</h3>
+            </div>
+          </div>
+        </main>
+
+        <!-- sideBar (instructor info)-->
+        <aside>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-3xl font-bold mb-6">Instructor Info</h3>
+            <h2 class="text-2xl">Mohamed Abdillahi</h2>
+            <p class="mt-2">
+              Mohamed Abdillahi is a talented frontend developer skilled in
+              creating responsive, user-friendly web interfaces. Proficient in
+              HTML, CSS, JavaScript, and frameworks like React, he delivers
+              clean, efficient code and innovative designs. Passionate about
+              modern web trends, Mohamed thrives on building seamless,
+              interactive user experiences
+            </p>
+
+            <hr class="my-4" />
+            <h3 class="text-xl">Contact Email</h3>
+            <p class="font-bold p-2 bg-indigo-100 rounded my-2">
+              email@gmail.com
+            </p>
+            <h3 class="text-xl">Contact Phone</h3>
+            <p class="font-bold p-2 bg-indigo-100 rounded my-2">
+              +252 6644 444 44
+            </p>
+          </div>
+
+          <!-- Manage -->
+          <div class="bg-white p-6 rounded-lg shadow-md mt-6">
+            <h3 class="text-xl font-bold mb-6">Manage Courses</h3>
+            <a
+              class="bg-indigo-500 hover:bg-indigo-600 text-white text-center font-bold py-2 px-4 rounded-full focus:outline-one focus:shadow-outline mt-4 block"
+              href="#"
+            >
+              Edit Course
+            </a>
+            <a
+              class="bg-red-600 hover:bg-red-700 text-white text-center font-bold py-2 px-4 rounded-full focus:outline-one focus:shadow-outline mt-4 block"
+              href="#"
+            >
+              Delete Course
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </body>
+</html>
